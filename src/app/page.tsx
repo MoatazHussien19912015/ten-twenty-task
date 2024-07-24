@@ -5,7 +5,7 @@ import CarouselSection from "./components/CarouselSection";
 
 export default function Home() {
   return (
-    <div className="">
+    <div>
       <HeroSection />
       <CarouselSection />
     </div>

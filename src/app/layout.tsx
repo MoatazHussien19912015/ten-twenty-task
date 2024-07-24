@@ -23,7 +23,7 @@ export default function RootLayout({
       <link href="https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet" />
       </head>
       <body className={inter.className}>
-        <main className=' relative  w-[1440px] flex flex-col items-center justify-center mx-auto '>
+        <main className=' relative  max-w-[1440px] flex flex-col items-center justify-center mx-auto '>
           <Navbar />
             {children}
         </main>

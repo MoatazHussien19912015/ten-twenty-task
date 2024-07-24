@@ -1,13 +1,10 @@
-svg {
+.slider_svg {
     cursor: pointer;
-    //border: 5px solid #ccc;
     width: 135px;
     height: 135px;
   }
   
-  /* svg path {
-    animation: dash 3s linear 1s forwards; 
-  } */
+  
 
   .doit {
     animation: dash 5s linear 2s  forwards;
@@ -38,6 +35,6 @@ svg {
     }
 }
 
-.doittoo {
+.animate-hero-image {
     animation: gradient 15s ease infinite;
 }

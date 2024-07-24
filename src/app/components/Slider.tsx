@@ -21,8 +21,8 @@ const Slider = ({changeImage, curretImage}: Props) => {
     
 
   return (
-    <div className='absolute left-[135px] top-[692px] w-[345px] h-[141px] flex justify-between'>
-            <svg viewBox="0 0 200 200">
+    <div className='absolute left-[25px] md:left-[135px] top-[627px] md:top-[692px] w-[323px] h-[120px] md:w-[345px] md:h-[141px] flex justify-between'>
+            <svg className='slider_svg' viewBox="0 0 200 200">
                 <path key={curretImage} onAnimationEnd={changeImage} className={'doit'} d="M2 12L2 188 Q 2,198 20,198 L 188 198 Q198,198 198,188 L198 12 Q198,2 188,2 L12 2 Q2,2 2,12z" stroke="white" stroke-width="4" fill="none"/>
                 <image x="50%" y="50%"  transform="translate(-60,-60)"
                     width="120" 
