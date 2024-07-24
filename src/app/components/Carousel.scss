@@ -1,0 +1,29 @@
+.container {
+  width: 1000px;
+  height: 820px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  overflow: hidden;
+  }
+  
+  .items-container {
+  display: flex;
+  gap: 10px;
+  pointer-events: none;
+  position: absolute;
+  top: 0;
+  left: 0;
+  }
+  
+  .item {
+  height: 795.24px;
+  width: 596.43px;
+  border-radius: 5px;
+  background-color: white;
+  
+  
+
+
+  }
